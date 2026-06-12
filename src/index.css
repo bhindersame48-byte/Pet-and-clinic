@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary-navy: #002147;
+  --color-accent-crimson: #9b1b30;
+  --color-editorial-bg: #F9FAFB;
+  
+  --color-navy-50: #f4f6f8;
+  --color-navy-100: #e5e9ef;
+  --color-navy-200: #ccd5df;
+  --color-navy-300: #a3b3c5;
+  --color-navy-400: #738cab;
+  --color-navy-500: #002147;
+  --color-navy-600: #001b3d;
+  --color-navy-700: #001633;
+  --color-navy-800: #001026;
+  --color-navy-900: #000c1e;
+  --color-navy-950: #00050d;
+  
+  --color-crimson-50: #fff5f6;
+  --color-crimson-100: #ffe8eb;
+  --color-crimson-200: #ffd1d8;
+  --color-crimson-300: #fca5b4;
+  --color-crimson-400: #f66d86;
+  --color-crimson-500: #9b1b30;
+  --color-crimson-600: #831223;
+  --color-crimson-700: #6b0c1b;
+  --color-crimson-800: #540914;
+  --color-crimson-900: #40060e;
+  --color-crimson-950: #260206;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+/* Custom modern scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f9fafb;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccd5df;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3b3c5;
+}

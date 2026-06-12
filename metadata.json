@@ -1,0 +1,6 @@
+{
+  "name": "Pet & Vet Zone Health Clinic",
+  "description": "A modern, clean, and minimalistic single-page website for Pet & Vet Zone Health Clinic led by Dr. Laiba Tariq.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
