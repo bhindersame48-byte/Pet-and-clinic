@@ -56,6 +56,7 @@ import {
   Review, 
   FAQItem 
 } from './data';
+import frenchBulldogHero from './assets/images/french_bulldog_hero_1780988814790.png';
 
 // Definition of locally stored appointments
 interface Appointment {
@@ -1335,7 +1336,7 @@ export default function App() {
             {/* Right Column (Hero portrait of French Bulldog) */}
             <div className="lg:col-span-5 h-full flex items-end justify-center lg:justify-end overflow-hidden relative">
               <img 
-                src="/src/assets/images/french_bulldog_hero_1780988814790.png" 
+                src={frenchBulldogHero} 
                 alt="Happy French Bulldog wearing a cozy yellow sweater" 
                 className="w-full max-w-sm sm:max-w-md lg:max-w-full h-auto object-cover object-bottom translate-y-2 lg:translate-y-6 select-none scale-102 duration-500 hover:scale-[105%]"
                 referrerPolicy="no-referrer"

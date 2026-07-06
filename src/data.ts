@@ -13,6 +13,11 @@ import {
   Smile
 } from 'lucide-react';
 
+import doctorLaibaAvatar from './assets/images/doctor_laiba_avatar_1780986065804.png';
+import clinicHeroPets from './assets/images/clinic_hero_pets_1780986048576.png';
+import petServicesImg from './assets/images/pet_services_img_1780986084648.png';
+import livestockServicesImg from './assets/images/livestock_services_img_1780986107682.png';
+
 export interface CoreValue {
   id: string;
   title: string;
@@ -57,7 +62,7 @@ export const CLINIC_INFO = {
     degrees: "DVM, RVMP",
     role: "Senior Veterinary Surgeon & Consultant",
     location: "Islamabad / Dunyapur",
-    image: "/src/assets/images/doctor_laiba_avatar_1780986065804.png",
+    image: doctorLaibaAvatar,
     bio: "Dr. Laiba Tariq is a dedicated Doctor of Veterinary Medicine (DVM) and a Registered Veterinary Medical Practitioner (RVMP). Possessing deep expertise in both companion animal wellness and advanced livestock therapeutics, she bridges the gap between urban high-tech veterinary standards and rural animal health challenges. Dr. Laiba is known for her meticulous surgical skills, precise diagnostic acumen, and her lifelong passion for improving the lives of dogs, cats, birds, cows, sheep, and goats.",
     credentials: [
       "Registered Veterinary Medical Practitioner (RVMP)",
@@ -78,9 +83,9 @@ export const CLINIC_INFO = {
     ]
   },
   media: {
-    hero: "/src/assets/images/clinic_hero_pets_1780986048576.png",
-    pets: "/src/assets/images/pet_services_img_1780986084648.png",
-    livestock: "/src/assets/images/livestock_services_img_1780986107682.png"
+    hero: clinicHeroPets,
+    pets: petServicesImg,
+    livestock: livestockServicesImg
   }
 };
 
