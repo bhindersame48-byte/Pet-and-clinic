@@ -520,7 +520,7 @@ export default function App() {
               e.preventDefault();
               // Safely pull from environment variables with safe fallback credentials if unset
               const reqEmail = (((import.meta as any).env?.VITE_ADMIN_EMAIL) || "bhindersamejutt@gmail.com").trim().toLowerCase();
-              const reqPass = (((import.meta as any).env?.VITE_ADMIN_PASSWORD) || "DrLaibaTariq928!").trim();
+              const reqPass = (((import.meta as any).env?.VITE_ADMIN_PASSWORD) || "Justlisten928$").trim();
 
               if (loginEmail.trim().toLowerCase() === reqEmail && loginPassword.trim() === reqPass) {
                 localStorage.setItem('petvet_admin_logged_in', 'true');
